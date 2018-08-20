@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	    <title>Yoan Hillion</title>
+	</head>
+	<body>
+		<main class="main">
+			<header>
+				<div class="logo"><img src="assets/images/logoyh-white.svg" alt="LOGOYH_white"></div>
+				<div class="nav-icon">
+					<div class="hamburger hamburger--slider">
+						<div class="hamburger-box">
+						<div class="hamburger-inner"></div>
+						<p class="hamburger-text">menu</p>
+						</div>
+					</div>
+				</div>
+			</header>
+			<nav class="menu">
+				<div class="menu__inner">
+					<ul>
+						<li class="menu__item"><a class="menu__link" href="">Works</a></li>
+						<li class="menu__item"><a class="menu__link" href="/about.html">About</a></li>
+						<li class="menu__item"><a class="menu__link" href="/contact.html">Contact</a></li>
+					</ul>
+					
+				</div>
+				<footer class="footer--menu">
+					<div class="footer">
+						<div class="footer__inner--left">
+							<p class="footer__social"><a class="footer__link" href="">yoan.hillion@hotmail.fr</a></p>
+						</div>
+						<div class="footer__inner--right">
+							<p class="footer__social"><a class="footer__link" href="">Linkedin</a></p>
+							<p class="footer__social"><a class="footer__link" href="">Twitter</a></p>
+							<p class="footer__social"><a class="footer__link" href="">Github</a></p>
+						</div>
+					</div>	
+				</footer>
+			</nav>
+	  	 	<div class="container">
+	  	 		<section class="presentation">
+			  	 	<h1 class="presentation__title js-fade__text">Hello, I'm Yoan,<br /> a curious <span class="bold">Front-end developper.</span></h1>
+			  	 </section>
+
+			  	 <section class="project">
+			  	 	<a class="project__item project__item--project1 js-fadeIn__item" href="/original-foodtruck.html">
+			  	 		<div class="overlay">
+				  	 		<h2 class="project__title">Original Foodtruck</h2>
+				  	 	</div>
+			  	 	</a>
+			  	 	<a class="project__item project__item--project2 js-fadeIn__item" href="/au-regal.html">
+			  	 		<div class="overlay">
+				  	 		<h2 class="project__title">Au Regal</h2>
+				  	 	</div>
+			  	 	</a>
+			  	 	<a class="project__item project__item--project3 js-fadeIn__item" href="/pendu.html">
+			  	 		<div class="overlay">
+				  	 		<h2 class="project__title">Pendu</h2>
+				  	 	</div>
+			  	 	</a>
+			  	 	<% for(let i = 0; i < 3; i++ ) { %>
+			  	 	<a class="project__item js-fadeIn__item" href="/project.html">
+			  	 		<div class="overlay">
+				  	 		<h2 class="project__title">project title</h2>
+				  	 	</div>
+			  	 	</a>
+			  	 	<% } %>
+			  	 </section>
+	  	 	</div>
+		</main>
+		<footer>
+			<div class="footer">
+				<div class="footer__inner--left">
+					<p class="footer__social"><a class="footer__link" href="">yoan.hillion@hotmail.fr</a></p>
+				</div>
+				<div class="footer__inner--right">
+					<p class="footer__social"><a class="footer__link" href="">Linkedin</a></p>
+					<p class="footer__social"><a class="footer__link" href="">Twitter</a></p>
+					<p class="footer__social"><a class="footer__link" href="">Github</a></p>
+				</div>
+			</div>	
+		</footer>
+	</body>
+</html>

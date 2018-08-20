@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Yoan Hillion | Contact</title>
+</head>
+<body>
+	<main class="main">
+		<%= require('./header.ejs')() %>
+ 		<h1 class="presentation"><span class="bold">For any inquiries</span> or even say hello <br/> just drop me a line here! :)</h1>
+ 		<p class="contact-text">I'm also on <a href=""><span class="bold">linkedin</span></a> and <a href=""><span class="bold">twitter</span></a></p>
+ 		<form class="form" action="https://formspree.io/yoan.hillion@hotmail.fr" method="POST">
+		    <input class="form__field" type="text" placeholder="Name" name="name">  
+		    <input class="form__field" type="email" placeholder="Email" name="email">
+		    <textarea class="form__field form__field--text-area" name="message" placeholder="Message"></textarea>
+		    <button class="form__button" type="submit">Send</button>
+		</form>
+	</main>
+</body>
+</html>
