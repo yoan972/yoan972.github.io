@@ -117,10 +117,14 @@ module.exports = {
         filename: 'pendu.html',
         chunks: ['menu','app'],
         template : 'src/project3.ejs'
+      }),
+      new HtmlWebpackPlugin({
+        title : 'Yoan Hillion | To Do List',
+        inject: true,
+        filename: 'todo.html',
+        chunks: ['menu','app'],
+        template : 'src/project4.ejs'
       })
-
-
-
   	],
   	devtool: "eval-source-map",
   	devServer: {

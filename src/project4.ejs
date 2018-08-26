@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Yoan Hillion | To Do App</title>
+</head>
+<body>
+	<main class="main">
+		<%= require('./header.ejs')() %>
+		<div class="homeproject__header">
+			<h1 class="homeproject__title js-fade__text">To Do App</h1>
+		</div>
+		<section class="homeproject__content">
+			<div class="homeproject__item">
+				<div class="homeproject__description">
+					<h2 class="homeproject__title2">Keep your To Do List and don’t forget your task !</h2>
+					<p class="homeproject__text">This project is just a funny To do App. It has a good UI with some nice transitions that I built in vanilla javascript.</p>
+				</div>
+			</div>
+			<div class="homeproject__item js-fadeIn__item">
+				<img class="homeproject__image" src="assets/images/TODO/720px1_TO DO.jpg">
+			</div>
+			<div class="homeproject__landscape js-fadeIn__item">
+				<img class="homeproject__image" src="assets/images/TODO/1440_TODO.jpg">
+			</div>
+			<div class="homeproject__item js-fadeIn__item">
+				<img class="homeproject__image" src="assets/images/TODO/720px2_TO DO.jpg">
+			</div>
+			<div class="homeproject__item js-fadeIn__item">
+				<div class="homeproject__description">
+					<h2 class="homeproject__title2">Keep your To Do List and don’t forget your task !</h2>
+				</div>
+			</div>
+		</section>
+		<div class="homeproject__navigation">
+			<div class="navigation__button"><a class="form__button" href="/pendu.html">Previous project</a></div>
+			<div class="navigation__button"><a class="form__button" href="/original-foodtruck.html">Next project</a></div>
+		</div>
+
+	</main>
+	<%= require('./footer.ejs')() %>
+</body>
+</html>		
